@@ -1,0 +1,62 @@
+
+body{
+    margin: 0;
+    display: block;
+}
+
+.Header{
+    height: 9vh;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    flex-direction: row ;
+    margin-left: 2rem;
+    max-width: 95vw;
+    
+}
+
+.navbar{
+}
+.shipnav{
+    background-color:#0054A6;  
+}
+
+.shipnav a{
+    height:  2rem;
+    color:white;
+    display: block;
+    text-align: center;
+}
+
+.bottom{
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 1rem;
+}
+
+.pokeimg{ 
+    margin-left: 1rem;
+
+}
+
+.box, .box2{
+    flex-wrap: wrap;
+    display: inline-block;
+    margin: 3rem;
+        
+}
+
+.footer{
+    border-top-style: solid;
+    border-color: red;
+}
+
+    
+
+    
+
+
